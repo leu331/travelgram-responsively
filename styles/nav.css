@@ -1,0 +1,11 @@
+nav {
+    padding-block: 1.25rem;
+    
+}
+div#menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 1rem;
+
+}

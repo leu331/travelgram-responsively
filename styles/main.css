@@ -1,0 +1,30 @@
+main {
+    display: flex;
+   flex-wrap: wrap; 
+   gap: 24px;
+   padding-block: 24px;
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+    border: 1px solid gray;
+}
+
+
+
+@media (width < 80em) {
+    
+   .px-md {
+        padding-inline: 1rem;
+    }
+ main img {
+    padding: 0;
+    width: 350px;
+    height: 328px;
+    object-fit: cover;
+    border: 1px solid gray;
+  
+}
+}

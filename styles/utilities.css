@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.px-md {
+    padding-inline: 2rem;
+}
+
+@media (width < 80em) {
+.container {
+    max-width: 375px;
+    width: min(var(--max-width), 100%);;
+}
+}
+
+@media (width >= 80em) {
+    .container {
+        --max-width: 80em;
+        width: min(var(--max-width), 100%);
+    }
+
+    .desktop-only {
+        display: initial;
+    }
+    
+}
