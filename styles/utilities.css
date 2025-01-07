@@ -17,9 +17,9 @@
 }
 }
 
-@media (width >= 80em) {
+@media (width > 80em) {
     .container {
-        --max-width: 80em;
+        --max-width: 100em;
         width: min(var(--max-width), 100%);
     }
 
@@ -28,3 +28,4 @@
     }
     
 }
+

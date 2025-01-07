@@ -25,6 +25,11 @@ a {
     text-decoration: none;
 }
 
-body {
+.centercontainer {
     
+}
+
+body {
+    display: flex;
+    justify-content: center;
 }

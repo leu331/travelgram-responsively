@@ -8,4 +8,8 @@ div#menu {
     margin-left: auto;
     gap: 1rem;
 
+    & a {
+        color: var(--text-color-secondary);
+    }
+
 }
